@@ -216,15 +216,19 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "chainlit" },
+    { name = "fastapi" },
     { name = "openai-agents" },
     { name = "python-dotenv" },
+    { name = "uvicorn" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "chainlit", specifier = ">=2.5.5" },
+    { name = "fastapi", specifier = ">=0.108.0" },
     { name = "openai-agents", specifier = ">=0.0.16" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
+    { name = "uvicorn", specifier = ">=0.25.0" },
 ]
 
 [[package]]
