@@ -118,3 +118,6 @@ cot = "full"
 
 [meta]
 generated_by = "2.5.5"
+
+[main]
+entrypoint = "main.py"
