@@ -5,6 +5,10 @@ import chainlit as cl
 from openai.types.responses import  ResponseTextDeltaEvent
 
 
+
+
+
+
 load_dotenv()
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
